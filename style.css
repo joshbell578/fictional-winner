@@ -1,0 +1,50 @@
+#et-info{
+    line-height: 1em;
+    text-align: center;
+}
+
+#et-info-phone{
+    margin-right: 13px;
+    position: relative;
+}
+
+#top-header{
+    line-height: 1em;
+}
+
+#top-header a{
+    color: rgb(232, 230, 227);
+}
+
+#top-header.container{
+    font-weight: 600;
+}
+
+a{
+    cursor: url(data:image/svg+xml;utf8,%0D%0A%0D%0A%3Csvg%20width…223%22%3E%3C%2Fellipse%3E%0D%0A%3C%2Fsvg%3E%0D%0A);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+div.et-animated-content #page-container{
+    margin-top: -1px;
+    padding-top: 112px;
+    overflow-y: hidden;
+}
+
+span{
+    background-color: initial;
+    outline-color: initial;
+    background-image: initial;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    vertical-align: baseline;
+    background-color: transparent;
+}
