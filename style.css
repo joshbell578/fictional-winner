@@ -20,15 +20,82 @@
     font-weight: 600;
 }
 
+ul#top-menu li.menu-item:not(:last-child){
+    padding-right: 10px !important;
+}
+
+#top-menu li li{
+    padding: 0 20px;
+    margin: 0;
+}
+
+#top-menu li{
+    display: inline-block;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+.nav li li{
+    position: relative;
+    line-height: 2em;
+}
+
+.nav li ul{
+    visibility: hidden;
+}
+
+html{
+    color-scheme: dark !important;
+}
+
+script{
+    display: none;
+}
+
 a{
     cursor: url(data:image/svg+xml;utf8,%0D%0A%0D%0A%3Csvg%20width…223%22%3E%3C%2Fellipse%3E%0D%0A%3C%2Fsvg%3E%0D%0A);
 }
 
 body {
+    color: rgb(168, 160, 149);
     overflow-x: hidden;
+    cursor: url(data:image/svg+xml;utf8,%0D%0A%0D%0A%3Csvg%20width…6.4%22%3E%3C%2Fellipse%3E%0D%0A%3C%2Fsvg%3E%0D%0A) 0 0, auto !important;
+    line-height: 1.2em;
+    font-size: 15px;
+    font-family: "Open Sans", "Arial", "sans-serif";
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    --wp--style--global--content-size: 823px;
+    --wp--style--global--wide-size: 1080px;
 }
 
-div.et-animated-content #page-container{
+:root{
+    --wp--preset--fontsize--normal: 16px;
+    --wp--preset--fontsize--huge: 42px;
+
+}
+
+::-webkit-scrollbar{
+    background-color: #202324;
+    color: #aba499;
+
+}
+
+::-webkit-scrollbar-corner{
+    background-color: #181a1b;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #454a4d;
+}
+
+::selection{
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+
+div#page-container{
     margin-top: -1px;
     padding-top: 112px;
     overflow-y: hidden;
@@ -47,4 +114,33 @@ span{
     -webkit-text-size-adjust: 100%;
     vertical-align: baseline;
     background-color: transparent;
+}
+
+header#main-header{
+    top: 63.5px;
+}
+
+div#et-top-navigation{
+    padding-left: 166px;
+    font-family: "Bad Script", handwriting;
+    font-weight: 600;
+}
+
+ul{
+    list-style-image: initial;
+    list-style: none;
+}
+
+li{
+    border-color: initial;
+    outline-color: initial;
+    background-image: initial;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    -webkit-text-size-adjust: 100%;
+}
+
+*{
+    box-sizing: border-box;
 }
